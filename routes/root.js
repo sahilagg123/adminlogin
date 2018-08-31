@@ -85,6 +85,10 @@ route.get('/vendorspage',(req,res)=>{
     res.render('vendorspage',{})
 })
 
+route.get('/aboutus',(req,res)=>{
+    res.render('aboutus');
+})
+
 
 
 exports=module.exports=route;
